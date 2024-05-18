@@ -54,7 +54,8 @@ After performed analysis and gained some insights into data, created visualizati
     'Desplaines St & Kinzie St' & 'Clinton St & Madison St' sees the highest volume of riders starting their rides at user annual members. 'Desplaines St & Kinzie St' & 'Clinton St & Madison St' is situated nearby to Jane Addams Memorial Park and the apartment building Lake Point Tower. Casual riders predominantly kick-start their trips from stations adjacent to museums, parks, beaches, harbors, and aquariums, while members opt to commence their journeys from stations proximate to universities, residential areas and commercial districts.
 
 5. This visualization map shows the total trips at ending stations in 2023 by type of users.
-  Most of the riders chose to end their journey at 'Kingsbury St & Kinzie St' & 'Clinton St & Madison St'. Casual riders of 'Streeter Dr & Grand Ave' often conclude their journeys near parks, museums, and recreational areas, while members tend to end their trips in proximity to residential areas and commercial districts.
+   ![Ending_Stations in 2023](https://github.com/Jyosna059/Cyclistic-Bike-Sales-Analyisis/assets/111238384/9798ffae-b45d-4dfc-bd2d-c8f14e17c188)
+    Most of the Member riders chose to end their journey at 'Kingsbury St & Kinzie St' & 'Clinton St & Madison St'. Casual riders of 'Streeter Dr & Grand Ave' and also often conclude their journeys near parks, museums, and recreational areas, while members tend to end their trips in proximity to residential areas and commercial districts.
 
 ### ACT PHASE
 Recommendations for marketing strategy based on my analysis:
