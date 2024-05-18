@@ -31,29 +31,47 @@ The dataset contains historical ride data from Cyclistic, a bike-share service o
 13. member_casual - Indicates whether the rider is a casual user or an annual member.
 ### PROCESS PHASE - 
 The Cyclistic bike share data will undergo thorough preprocessing to ensure its suitability for analysis. This will involve tasks such as handling missing values, standardizing data formats, and encoding categorical variables. Additionally, data exploration techniques may be employed to gain a deeper understanding of the dataset's structure and identify any initial patterns or trends that could inform subsequent analysis strategies.
+Here, I used SQL WORKBENCH for the data preprocessing as Microsoft Excel is unable to accomplish due to its limitations with large datasets.
+1. Data Combining: Data combining involves merging or appending multiple datasets with similar or related information into a single dataset for analysis.
+
+   
+2. Data Exploration: Data exploration involves examining and visualizing the dataset to understand its structure, distributions, and relationships between variables and helps to identify patterns, trends, and outliers, providing valuable insights.
+
+   
+3. Data Cleaning: Data cleaning involves identifying and rectifying errors, inconsistencies, duplicate values and missing values within a dataset to ensure its accuracy and reliability for analysis. 
+
+   
 
 ### ANALYZE PHASE - 
 The Cyclistic's bike share data will be subjected to various statistical and analytical techniques to extract actionable insights. this will involve identifying correlations between different variables, conducting trend analysis to understand patterns over time, and possibly employing predictive modeling to forecast future trends. 
+4. Data Analyzing - Data analysis involves applying statistical and analytical techniques to uncover patterns, trends, and relationships within the dataset. By interpreting the data, can extract meaningful insights that inform decision-making and drive strategic actions.
+
+
 
 ### SHARE PHASE - 
 After performed analysis and gained some insights into data, created visualizations to share your findings of the follwing question "How do annual members and casual riders use Cyclistic bikes differently?" that mentioned earlier, I have created 5 dashboard visualizations to answer this question by using a software such as 'TABLEAU'.
 1. This visualization shows bikes types used by riders in 2023 by two groups of users.
+   https://public.tableau.com/views/CyclisticBikeShareAnalysisBikeTypes/Biketypesin2023?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
   ![Bike types in 2023](https://github.com/Jyosna059/Cyclistic-Bike-Sales-Analyisis/assets/111238384/48619c73-c557-4dd0-a985-23b58dd7a06a)
   The outcome reveals that there are currently 1,03,014 active members, representing nearly 75.53% of the total user base, while the remaining 24.47% (77805) consists of casual riders. Classic bike with 47.01% (48,426) has the most popularity among users and followed by the electric bike with 25.52% (29,379). However, only 1.69% of users use docked bikes.
   
 2. This Visualization shows the total number of trips in 2023 by month, weekday and hour.
+   https://public.tableau.com/views/CyclisticBikeShareAnalysisNumberofTrips/Total_tripsin2023?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
    ![Total_trips in 2023](https://github.com/Jyosna059/Cyclistic-Bike-Sales-Analyisis/assets/111238384/a61b0633-265a-4e65-91ac-470b0157bbc0)
    For monthly data, both casual and member users demonstrate comparable patterns, showing increased travel during the starting of month (January) and decreased activity in the winter at the month of end (DECEMBER). Looking at the graph that indicates number of trips by day, casual and member riders shows opposite patterns. Members tend to make their ride on Tuesday and casual users prefer to make their journey on weekends. When examining hourly data, a clear trend emerges: both types of users overwhelmingly prefer riding during the morning at 8am and in the evening at 5pm.
    
 3. This Visualization shows average ride duration per minutes by month, weekday, hour in 2023.
+   https://public.tableau.com/views/CyclisticBikeShareAnalysisAverageRideDuration/AverageRideDurationin2023?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
    ![Average Ride Duration in 2023](https://github.com/Jyosna059/Cyclistic-Bike-Sales-Analyisis/assets/111238384/a0a7aa90-aedd-4641-b3eb-80f9fb8d0b5e)
     This visualization shows the ride activity for both types of users during the spring and summer months but for month june member users increased the activity. This trend extends to the average ride duration by month (Above 20 minutes), with a substantial increase observed over the same period. And when we look at average ride duration by day, we can observe that both casual and member riders will spend more time for riding. For hourly data, between 10 am and 2 pm and night 11pm, users tend to embark on longer journeys during the day. Conversely, from five to eight in the morning, their trips are typically shorter in duration.
 
 4. This visualization map shows the total trips at starting stations in 2023 by type of users.
+   https://public.tableau.com/views/CyclisticBikeShareAnalysisStartingStations/StartingStationsin2023?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
    ![Starting Stations in 2023](https://github.com/Jyosna059/Cyclistic-Bike-Sales-Analyisis/assets/111238384/d17b1534-0eb7-4116-8597-ffcd0af421ab)
     'Desplaines St & Kinzie St' & 'Clinton St & Madison St' sees the highest volume of riders starting their rides at user annual members. 'Desplaines St & Kinzie St' & 'Clinton St & Madison St' is situated nearby to Jane Addams Memorial Park and the apartment building Lake Point Tower. Casual riders predominantly kick-start their trips from stations adjacent to museums, parks, beaches, harbors, and aquariums, while members opt to commence their journeys from stations proximate to universities, residential areas and commercial districts.
 
 5. This visualization map shows the total trips at ending stations in 2023 by type of users.
+   https://public.tableau.com/views/CyclisticBikeShareAnalysisEndingStations/Ending_Stationsin2023?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
    ![Ending_Stations in 2023](https://github.com/Jyosna059/Cyclistic-Bike-Sales-Analyisis/assets/111238384/9798ffae-b45d-4dfc-bd2d-c8f14e17c188)
     Most of the Member riders chose to end their journey at 'Kingsbury St & Kinzie St' & 'Clinton St & Madison St'. Casual riders of 'Streeter Dr & Grand Ave' and also often conclude their journeys near parks, museums, and recreational areas, while members tend to end their trips in proximity to residential areas and commercial districts.
 
