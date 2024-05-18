@@ -21,7 +21,7 @@ FROM cleaned_data
 GROUP BY day_of_week, member_casual
 ORDER BY member_casual;
 
-#Number of trips per hour
+#Number of trips per hour by type of user
 SELECT EXTRACT(HOUR FROM started_at) AS hour_of_day, member_casual, COUNT(ride_id) AS total_trips
 FROM cleaned_data
 GROUP BY hour_of_day, member_casual
@@ -42,14 +42,14 @@ SELECT EXTRACT(HOUR FROM started_at) AS hour_of_day, member_casual, ROUND(AVG(ri
 FROM cleaned_data
 GROUP BY hour_of_day, member_casual;
 
-#starting station locations
+#starting station locations by user type
 SELECT start_station_name, member_casual,
   ROUND(AVG(start_lat),2) AS start_lat, ROUND(AVG(start_lng),2) AS start_lng,
   COUNT(ride_id) AS total_trips
 FROM cleaned_data
 GROUP BY start_station_name, member_casual;
 
-#ending station locations
+#ending station locations by user type
 SELECT end_station_name, member_casual,
   ROUND(AVG(end_lat),2) AS end_lat, ROUND(AVG(end_lng),2) AS end_lng,
   COUNT(ride_id) AS total_trips
