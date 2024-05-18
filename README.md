@@ -41,15 +41,16 @@ After performed analysis and gained some insights into data, created visualizati
   ![Bike types in 2023](https://github.com/Jyosna059/Cyclistic-Bike-Sales-Analyisis/assets/111238384/48619c73-c557-4dd0-a985-23b58dd7a06a)
   The outcome reveals that there are currently 1,03,014 active members, representing nearly 75.53% of the total user base, while the remaining 24.47% (77805) consists of casual riders. Classic bike with 47.01% (48,426) has the most popularity among users and followed by the electric bike with 25.52% (29,379). However, only 1.69% of users use docked bikes.
   
-3. This Visualization shows the total number of trips in 2023 by month, weekday and hour.
-  Looking at the above chart that indicates number of trips by month, day, casual and member riders shows opposite patterns. Members tend to make their ride on weekdays and casual users prefer to make their journey on weekend. When examining hourly data, a clear trend emerges: both types of users overwhelmingly prefer riding during the morning at 8am and in the evening at 5pm.
+2. This Visualization shows the total number of trips in 2023 by month, weekday and hour.
+   ![Total_trips in 2023](https://github.com/Jyosna059/Cyclistic-Bike-Sales-Analyisis/assets/111238384/a61b0633-265a-4e65-91ac-470b0157bbc0)
+   For monthly data, both casual and member users demonstrate comparable patterns, showing increased travel during the starting of month (January) and decreased activity in the winter at the month of end (DECEMBER). Looking at the graph that indicates number of trips by day, casual and member riders shows opposite patterns. Members tend to make their ride on Tuesday and casual users prefer to make their journey on weekends. When examining hourly data, a clear trend emerges: both types of users overwhelmingly prefer riding during the morning at 8am and in the evening at 5pm.
+   
+3. This Visualization shows average ride duration per minutes by month, weekday, hour in 2023.
 
-4. This Visualization shows average ride duration per minutes by month, weekday, hour in 2023.
-
-5. This visualization map shows the total trips at starting stations in 2023 by type of users.
+6. This visualization map shows the total trips at starting stations in 2023 by type of users.
   'Desplaines St & Kinzie St' & 'Clinton St & Madison St' sees the highest volume of riders starting their rides at user annual members. 'Desplaines St & Kinzie St' & 'Clinton St & Madison St' is situated nearby to Jane Addams Memorial Park and the apartment building Lake Point Tower. Casual riders predominantly kick-start their trips from stations adjacent to museums, parks, beaches, harbors, and aquariums, while members opt to commence their journeys from stations proximate to universities, residential areas and commercial districts.
 
-6. This visualization map shows the total trips at ending stations in 2023 by type of users.
+7. This visualization map shows the total trips at ending stations in 2023 by type of users.
   Most of the riders chose to end their journey at 'Kingsbury St & Kinzie St' & 'Clinton St & Madison St'. Casual riders of 'Streeter Dr & Grand Ave' often conclude their journeys near parks, museums, and recreational areas, while members tend to end their trips in proximity to residential areas and commercial districts.
 
 ### ACT PHASE
