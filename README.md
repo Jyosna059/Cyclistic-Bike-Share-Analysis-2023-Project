@@ -33,12 +33,12 @@ The dataset contains historical ride data from Cyclistic, a bike-share service o
 The Cyclistic bike share data will undergo thorough preprocessing to ensure its suitability for analysis. This will involve tasks such as handling missing values, standardizing data formats, and encoding categorical variables. Additionally, data exploration techniques may be employed to gain a deeper understanding of the dataset's structure and identify any initial patterns or trends that could inform subsequent analysis strategies.
 Here, I used SQL WORKBENCH for the data preprocessing as Microsoft Excel is unable to accomplish due to its limitations with large datasets.
 1. Data Combining: Data combining involves merging or appending multiple datasets with similar or related information into a single dataset for analysis.
+   
+   
+3. Data Exploration: Data exploration involves examining and visualizing the dataset to understand its structure, distributions, and relationships between variables and helps to identify patterns, trends, and outliers, providing valuable insights.
 
    
-2. Data Exploration: Data exploration involves examining and visualizing the dataset to understand its structure, distributions, and relationships between variables and helps to identify patterns, trends, and outliers, providing valuable insights.
-
-   
-3. Data Cleaning: Data cleaning involves identifying and rectifying errors, inconsistencies, duplicate values and missing values within a dataset to ensure its accuracy and reliability for analysis. 
+4. Data Cleaning: Data cleaning involves identifying and rectifying errors, inconsistencies, duplicate values and missing values within a dataset to ensure its accuracy and reliability for analysis. 
 
    
 
