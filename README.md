@@ -36,13 +36,13 @@ The Cyclistic bike share data will undergo thorough preprocessing to ensure its 
 Here, I used SQL WORKBENCH for the data preprocessing as Microsoft Excel is unable to accomplish due to its limitations with large datasets.
 
 1. Data Combining: Data combining involves merging or appending multiple datasets with similar or related information into a single dataset for analysis.
-  https://github.com/Jyosna059/Cyclistic-Bike-Share-Analyisis-2023/blob/8318c44ad0942838a58ddf0041b56d7e7e146572/Data%20Combining  
+   https://github.com/Jyosna059/Cyclistic-Bike-Share-Analyisis-2023/blob/8318c44ad0942838a58ddf0041b56d7e7e146572/Data%20Combining  
    
 2. Data Exploration: Data exploration involves examining and visualizing the dataset to understand its structure, distributions, and relationships between variables and helps to identify patterns, trends, and outliers, providing valuable insights.
-  https://github.com/Jyosna059/Cyclistic-Bike-Share-Analyisis-2023/blob/8318c44ad0942838a58ddf0041b56d7e7e146572/Data%20Exploration
+   https://github.com/Jyosna059/Cyclistic-Bike-Share-Analyisis-2023/blob/8318c44ad0942838a58ddf0041b56d7e7e146572/Data%20Exploration
    
-3. Data Cleaning: Data cleaning involves identifying and rectifying errors, inconsistencies, duplicate values and missing values within a dataset to ensure its accuracy and reliability for analysis. 
-  https://github.com/Jyosna059/Cyclistic-Bike-Share-Analyisis-2023/blob/8318c44ad0942838a58ddf0041b56d7e7e146572/Data%20Cleaning
+3. Data Cleaning: Data cleaning involves identifying and rectifying errors, inconsistencies, duplicate values and missing values within a dataset to ensure its accuracy and reliability for analysis.
+   https://github.com/Jyosna059/Cyclistic-Bike-Share-Analyisis-2023/blob/8318c44ad0942838a58ddf0041b56d7e7e146572/Data%20Cleaning
 
 ### ANALYZE PHASE - 
 The Cyclistic's bike share data will be subjected to various statistical and analytical techniques to extract actionable insights. this will involve identifying correlations between different variables, conducting trend analysis to understand patterns over time, and possibly employing predictive modeling to forecast future trends. 
@@ -53,7 +53,7 @@ https://github.com/Jyosna059/Cyclistic-Bike-Share-Analyisis-2023/blob/8318c44ad0
 After performed analysis and gained some insights into data, created visualizations to share your findings of the follwing question "How do annual members and casual riders use Cyclistic bikes differently?" that mentioned earlier, I have created 5 dashboard visualizations to answer this question by using a software such as 'TABLEAU'.
 1. This visualization shows bikes types used by riders in 2023 by two groups of users.
    https://public.tableau.com/views/CyclisticBikeShareAnalysisBikeTypes/Biketypesin2023?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
-  ![Bike types in 2023](https://github.com/Jyosna059/Cyclistic-Bike-Sales-Analyisis/assets/111238384/48619c73-c557-4dd0-a985-23b58dd7a06a)
+   ![Bike types in 2023](https://github.com/Jyosna059/Cyclistic-Bike-Sales-Analyisis/assets/111238384/48619c73-c557-4dd0-a985-23b58dd7a06a)
   The outcome reveals that there are currently 1,03,014 active members, representing nearly 75.53% of the total user base, while the remaining 24.47% (77805) consists of casual riders. Classic bike with 47.01% (48,426) has the most popularity among users and followed by the electric bike with 25.52% (29,379). However, only 1.69% of users use docked bikes.
   
 2. This Visualization shows the total number of trips in 2023 by month, weekday and hour.
