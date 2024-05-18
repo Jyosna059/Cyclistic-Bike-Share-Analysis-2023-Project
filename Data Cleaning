@@ -62,10 +62,10 @@ WHERE
     OR end_lat IS NULL OR end_lat = ''
     OR end_lng IS NULL OR end_lng = '';
 
-#MAake ride_id as PRIMARY KEY
+#Make ride_id as PRIMARY KEY
 ALTER TABLE cleaned_data 
 ADD PRIMARY KEY(ride_id);
 
-#count the number of rows in a table
+#count the number of rows in a cleaned_data table
 SELECT COUNT(ride_id) AS no_of_rows     
 FROM cleaned_data;
