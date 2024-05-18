@@ -5,6 +5,7 @@ USE `cyclistic-bike-sales-analysis`;
 
 #Create new table in existing Databse
 #combining all the 12 months data tables into a single table containing data from Jan 2023 to Dec 2023
+#`tripdata_202301` is a created table in `cyclistic-bike-sales-analysis`
 CREATE TABLE `cyclistic-bike-sales-analysis`.`combined_data` AS (
 SELECT * FROM `cyclistic-bike-sales-analysis`.`tripdata_202301`
 UNION ALL
