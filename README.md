@@ -1,4 +1,4 @@
-# Cyclistic-Bike-Sales-Analyisis - 2023
+# Cyclistic-Bike-Share-Analyisis - 2023
 Google Analytics Case study: How does a bike-share navigate speedy success? The objective is to identify key insights that will inform the development of a targeted marketing strategy focused on converting casual riders into annual members. By understanding these distinctions, develop a data-driven marketing strategy to maximize the number of annual members, thus leading the way to the company's future success.
 ## Data Analysis Phases Steps: Ask, Prepare, Process, Analyze, Share and Act
 ### ASK PHASE - 
@@ -46,6 +46,8 @@ After performed analysis and gained some insights into data, created visualizati
    For monthly data, both casual and member users demonstrate comparable patterns, showing increased travel during the starting of month (January) and decreased activity in the winter at the month of end (DECEMBER). Looking at the graph that indicates number of trips by day, casual and member riders shows opposite patterns. Members tend to make their ride on Tuesday and casual users prefer to make their journey on weekends. When examining hourly data, a clear trend emerges: both types of users overwhelmingly prefer riding during the morning at 8am and in the evening at 5pm.
    
 3. This Visualization shows average ride duration per minutes by month, weekday, hour in 2023.
+   ![Average Ride Duration in 2023](https://github.com/Jyosna059/Cyclistic-Bike-Sales-Analyisis/assets/111238384/a0a7aa90-aedd-4641-b3eb-80f9fb8d0b5e)
+    This visualization shows the ride activity for both types of users during the spring and summer months but for month june member users increased the activity. This trend extends to the average ride duration by month (Above 20 minutes), with a substantial increase observed over the same period. And when we look at average ride duration by day, we can observe that both casual and member riders will spend more time for riding. For hourly data, between 10 am and 2 pm and night 11pm, users tend to embark on longer journeys during the day. Conversely, from five to eight in the morning, their trips are typically shorter in duration.
 
 6. This visualization map shows the total trips at starting stations in 2023 by type of users.
   'Desplaines St & Kinzie St' & 'Clinton St & Madison St' sees the highest volume of riders starting their rides at user annual members. 'Desplaines St & Kinzie St' & 'Clinton St & Madison St' is situated nearby to Jane Addams Memorial Park and the apartment building Lake Point Tower. Casual riders predominantly kick-start their trips from stations adjacent to museums, parks, beaches, harbors, and aquariums, while members opt to commence their journeys from stations proximate to universities, residential areas and commercial districts.
