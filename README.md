@@ -18,16 +18,16 @@ The dataset contains historical ride data from Cyclistic, a bike-share service o
 #### Variables:
 1. ride_id: Unique identifier for each ride, consisting 16 characters - Example: 'F96D5A74A3E41399'
 2. rideable_type - Types of bikes: electric_bike, classic_bike and docked_bike
-Start Time: Date and time when the ride began in format of MM/DD/YYYY HH:MM:SS AM/PM
-End Time: Date and time when the ride ended in format of MM/DD/YYYY HH:MM:SS AM/PM
-Start Station ID: Identifier for the station where the ride originated.
-Start Station Name: Name of the station where the ride originated.
-End Station ID: Identifier for the station where the ride ended.
-End Station Name: Name of the station where the ride ended.
-start_lat - Latitude of starting station
-start_lng - Longitude of starting station
-end_lat - Latitude of ending station
-end_lng - Longitude of ending station
-member_casual - Indicates whether the rider is a casual user or an annual member.
+3. Start Time: Date and time when the ride began in format of MM/DD/YYYY HH:MM:SS AM/PM
+4. End Time: Date and time when the ride ended in format of MM/DD/YYYY HH:MM:SS AM/PM
+5. Start Station ID: Identifier for the station where the ride originated.
+6. Start Station Name: Name of the station where the ride originated.
+7. End Station ID: Identifier for the station where the ride ended.
+8. End Station Name: Name of the station where the ride ended.
+9. start_lat - Latitude of starting station
+10. start_lng - Longitude of starting station
+11. end_lat - Latitude of ending station
+12. end_lng - Longitude of ending station
+13. member_casual - Indicates whether the rider is a casual user or an annual member.
 
 
