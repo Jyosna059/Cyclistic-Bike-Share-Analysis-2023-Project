@@ -1,5 +1,7 @@
 # Cyclistic-Bike-Share-Analyisis - 2023
 Google Analytics Case study: How does a bike-share navigate speedy success? The objective is to identify key insights that will inform the development of a targeted marketing strategy focused on converting casual riders into annual members. By understanding these distinctions, develop a data-driven marketing strategy to maximize the number of annual members, thus leading the way to the company's future success.
+## Dashboard Link - 
+https://public.tableau.com/views/CyclisticBikeShareAnalysis-2023/CyclisticBikeSales?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
 ## Data Analysis Phases Steps: Ask, Prepare, Process, Analyze, Share and Act
 ### ASK PHASE - 
 #### 1. Define the Problem - 
@@ -32,21 +34,20 @@ The dataset contains historical ride data from Cyclistic, a bike-share service o
 ### PROCESS PHASE - 
 The Cyclistic bike share data will undergo thorough preprocessing to ensure its suitability for analysis. This will involve tasks such as handling missing values, standardizing data formats, and encoding categorical variables. Additionally, data exploration techniques may be employed to gain a deeper understanding of the dataset's structure and identify any initial patterns or trends that could inform subsequent analysis strategies.
 Here, I used SQL WORKBENCH for the data preprocessing as Microsoft Excel is unable to accomplish due to its limitations with large datasets.
+
 1. Data Combining: Data combining involves merging or appending multiple datasets with similar or related information into a single dataset for analysis.
+  https://github.com/Jyosna059/Cyclistic-Bike-Share-Analyisis-2023/blob/8318c44ad0942838a58ddf0041b56d7e7e146572/Data%20Combining  
    
+2. Data Exploration: Data exploration involves examining and visualizing the dataset to understand its structure, distributions, and relationships between variables and helps to identify patterns, trends, and outliers, providing valuable insights.
+  https://github.com/Jyosna059/Cyclistic-Bike-Share-Analyisis-2023/blob/8318c44ad0942838a58ddf0041b56d7e7e146572/Data%20Exploration
    
-3. Data Exploration: Data exploration involves examining and visualizing the dataset to understand its structure, distributions, and relationships between variables and helps to identify patterns, trends, and outliers, providing valuable insights.
-
-   
-4. Data Cleaning: Data cleaning involves identifying and rectifying errors, inconsistencies, duplicate values and missing values within a dataset to ensure its accuracy and reliability for analysis. 
-
-   
+3. Data Cleaning: Data cleaning involves identifying and rectifying errors, inconsistencies, duplicate values and missing values within a dataset to ensure its accuracy and reliability for analysis. 
+  https://github.com/Jyosna059/Cyclistic-Bike-Share-Analyisis-2023/blob/8318c44ad0942838a58ddf0041b56d7e7e146572/Data%20Cleaning
 
 ### ANALYZE PHASE - 
 The Cyclistic's bike share data will be subjected to various statistical and analytical techniques to extract actionable insights. this will involve identifying correlations between different variables, conducting trend analysis to understand patterns over time, and possibly employing predictive modeling to forecast future trends. 
-4. Data Analyzing - Data analysis involves applying statistical and analytical techniques to uncover patterns, trends, and relationships within the dataset. By interpreting the data, can extract meaningful insights that inform decision-making and drive strategic actions.
-
-
+1. Data Analyzing - Data analysis involves applying statistical and analytical techniques to uncover patterns, trends, and relationships within the dataset. By interpreting the data, can extract meaningful insights that inform decision-making and drive strategic actions.
+https://github.com/Jyosna059/Cyclistic-Bike-Share-Analyisis-2023/blob/8318c44ad0942838a58ddf0041b56d7e7e146572/Data%20Analysis
 
 ### SHARE PHASE - 
 After performed analysis and gained some insights into data, created visualizations to share your findings of the follwing question "How do annual members and casual riders use Cyclistic bikes differently?" that mentioned earlier, I have created 5 dashboard visualizations to answer this question by using a software such as 'TABLEAU'.
