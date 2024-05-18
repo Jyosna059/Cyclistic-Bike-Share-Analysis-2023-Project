@@ -50,7 +50,7 @@ After performed analysis and gained some insights into data, created visualizati
     This visualization shows the ride activity for both types of users during the spring and summer months but for month june member users increased the activity. This trend extends to the average ride duration by month (Above 20 minutes), with a substantial increase observed over the same period. And when we look at average ride duration by day, we can observe that both casual and member riders will spend more time for riding. For hourly data, between 10 am and 2 pm and night 11pm, users tend to embark on longer journeys during the day. Conversely, from five to eight in the morning, their trips are typically shorter in duration.
 
 4. This visualization map shows the total trips at starting stations in 2023 by type of users.
-   ![Average Ride Duration in 2023](https://github.com/Jyosna059/Cyclistic-Bike-Sales-Analyisis/assets/111238384/a0a7aa90-aedd-4641-b3eb-80f9fb8d0b5e)
+   ![Starting Stations in 2023](https://github.com/Jyosna059/Cyclistic-Bike-Sales-Analyisis/assets/111238384/d17b1534-0eb7-4116-8597-ffcd0af421ab)
     'Desplaines St & Kinzie St' & 'Clinton St & Madison St' sees the highest volume of riders starting their rides at user annual members. 'Desplaines St & Kinzie St' & 'Clinton St & Madison St' is situated nearby to Jane Addams Memorial Park and the apartment building Lake Point Tower. Casual riders predominantly kick-start their trips from stations adjacent to museums, parks, beaches, harbors, and aquariums, while members opt to commence their journeys from stations proximate to universities, residential areas and commercial districts.
 
 5. This visualization map shows the total trips at ending stations in 2023 by type of users.
