@@ -1,0 +1,57 @@
+#DATA ANALYSIS
+
+#Use created Database
+USE `cyclistic-bike-sales-analysis`;
+
+#bikes types used by riders
+SELECT member_casual, rideable_type, COUNT(*) AS total_trips
+FROM cleaned_data
+GROUP BY member_casual, rideable_type
+ORDER BY member_casual, total_trips;
+
+#Number of trips per month
+SELECT month, member_casual, COUNT(ride_id) AS total_trips
+FROM cleaned_data
+GROUP BY month, member_casual
+ORDER BY member_casual;
+
+#Number of trips per day of week
+SELECT day_of_week, member_casual, COUNT(ride_id) AS total_trips
+FROM cleaned_data
+GROUP BY day_of_week, member_casual
+ORDER BY member_casual;
+
+#Number of trips per hour
+SELECT EXTRACT(HOUR FROM started_at) AS hour_of_day, member_casual, COUNT(ride_id) AS total_trips
+FROM cleaned_data
+GROUP BY hour_of_day, member_casual
+ORDER BY member_casual;
+
+#average ride_length per month
+SELECT month, member_casual, ROUND(AVG(ride_length),2) AS avg_ride_duration
+FROM cleaned_data
+GROUP BY month, member_casual;
+
+#average ride_length per day of week
+SELECT day_of_week, member_casual, ROUND(AVG(ride_length),2) AS avg_ride_duration
+FROM cleaned_data
+GROUP BY day_of_week, member_casual;
+
+#average ride_length per hour
+SELECT EXTRACT(HOUR FROM started_at) AS hour_of_day, member_casual, ROUND(AVG(ride_length),2) AS avg_ride_duration
+FROM cleaned_data
+GROUP BY hour_of_day, member_casual;
+
+#starting station locations
+SELECT start_station_name, member_casual,
+  ROUND(AVG(start_lat),2) AS start_lat, ROUND(AVG(start_lng),2) AS start_lng,
+  COUNT(ride_id) AS total_trips
+FROM cleaned_data
+GROUP BY start_station_name, member_casual;
+
+#ending station locations
+SELECT end_station_name, member_casual,
+  ROUND(AVG(end_lat),2) AS end_lat, ROUND(AVG(end_lng),2) AS end_lng,
+  COUNT(ride_id) AS total_trips
+FROM cleaned_data
+GROUP BY end_station_name, member_casual;
