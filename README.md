@@ -1,4 +1,4 @@
-# Cyclistic-Bike-Share-Analyisis - 2023
+# Cyclistic-Bike-Share-Analysis - 2023
 Google Analytics Case study: How does a bike-share navigate speedy success? The objective is to identify key insights that will inform the development of a targeted marketing strategy focused on converting casual riders into annual members. By understanding these distinctions, develop a data-driven marketing strategy to maximize the number of annual members, thus leading the way to the company's future success.
 ## Dashboard Link - 
 https://public.tableau.com/views/CyclisticBikeShareAnalysis-2023/CyclisticBikeSales?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
